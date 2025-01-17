@@ -35,7 +35,7 @@ public class SearchActivity extends AppCompatActivity {
     private List<PexelsResponse.Photo> photoList;
     private ProgressBar progressBar;
     private SearchView searchView;
-    private final String API_KEY = "urZXSRPP3UQRZm6gpDu8pqMi5aDjq1BJXsIEFuxlo1dJcP5L8NGs6x67"; // Store in BuildConfig
+    private final String API_KEY = "Your api key"; // Store in BuildConfig
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
