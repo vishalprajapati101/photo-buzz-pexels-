@@ -33,7 +33,7 @@ public class CategoryDetailActivity extends AppCompatActivity {
     private PhotoAdapter adapter;
     private List<PexelsResponse.Photo> photoList;
     private String categoryName;
-    private final String API_KEY = "urZXSRPP3UQRZm6gpDu8pqMi5aDjq1BJXsIEFuxlo1dJcP5L8NGs6x67"; // Store this in BuildConfig
+    private final String API_KEY = "you api key"; // Store this in BuildConfig
     private ProgressBar progressBar; // Declare ProgressBar
     private TextView toolbarTitle; // TextView for the title
 
