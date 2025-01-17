@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/theme1"
+    android:layout_height="match_parent">
+
+    <!-- ImageView for displaying the photo -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ProgressBar
+        android:id="@+id/progressforview"
+        android:layout_gravity="center"
+        android:progressTint="@color/white"
+        android:indeterminateTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ProgressBar>
+
+    <!-- LinearLayout for vertical icons stack (favorite, share, download, set wallpaper) -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="end"
+
+        android:orientation="vertical">
+
+        <!-- Favorite Icon Button -->
+        <ImageView
+            android:id="@+id/favoriteIconn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/round_shape"
+            android:src="@drawable/favorit"
+            android:tint="@color/white" />
+
+        <!-- Share Icon Button -->
+        <ImageView
+            android:id="@+id/shareIconn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/round_shape"
+            android:src="@drawable/ic_share"
+
+            android:tint="@color/white" />
+
+        <!-- Download Icon Button -->
+        <ImageView
+            android:id="@+id/downloadIconn"
+
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/round_shape"
+            android:src="@drawable/dow"
+            android:tint="@color/white" />
+
+        <!-- Set Wallpaper Icon Button -->
+        <ImageView
+            android:id="@+id/setWallpaperIconn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/round_shape"
+
+            android:src="@drawable/wall"
+            android:tint="@color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

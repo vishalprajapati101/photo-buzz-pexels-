@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="theme3">#000000</color>
+
+    <!-- Jet Black -->
+    <color name="theme2">#0D0D0D</color>
+
+    <!-- Charcoal Black -->
+    <color name="theme4">#1C1C1C</color>
+
+    <!-- Graphite Black -->
+    <color name="theme11">#2B2B2B</color>
+
+    <!-- Slate Black -->
+    <color name="theme5">#3D3D3D</color>
+
+    <!-- Onyx Black -->
+    <color name="theme6">#353535</color>
+
+    <!-- Shadow Black -->
+    <color name="theme7">#262626</color>
+
+    <!-- Ash Black -->
+    <color name="theme8">#4F4F4F</color>
+    <color name="navigation_item_background">#F5F5F5</color>
+
+    <!-- Deep Gray -->
+    <color name="theme111">#2F2F2F</color>
+
+    <!-- Soft Black -->
+    <color name="theme1">#1A1A1A</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Neutral Colors -->
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#757575</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_red">#D32F2F</color>
+    <color name="accent_blue">#1976D2</color>
+    <color name="accent_green">#388E3C</color>
+</resources>
