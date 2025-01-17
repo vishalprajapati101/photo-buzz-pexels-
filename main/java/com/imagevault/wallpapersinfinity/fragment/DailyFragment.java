@@ -35,7 +35,7 @@ public class DailyFragment extends Fragment {
     private RecyclerView recyclerView;
     private PhotoAdapter adapter;
     private List<PexelsResponse.Photo> photoList;
-    private final String API_KEY = "urZXSRPP3UQRZm6gpDu8pqMi5aDjq1BJXsIEFuxlo1dJcP5L8NGs6x67"; // Store this in BuildConfig
+    private final String API_KEY = "your api key"; // Store this in BuildConfig
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
